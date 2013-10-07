@@ -1,0 +1,42 @@
+security:
+    access_decision_manager:
+        # strategy can be: affirmative, unanimous or consensus
+        # Unlike the *affirmative* strategy (the default), with the *unanimous* strategy if only one voter denies access, access is not granted to the end user.
+        strategy: unanimous
+
+    encoders:
+        Flexy\SystemBundle\Entity\User:
+            algorithm:   sha512
+
+    role_hierarchy:
+        ROLE_BACKEND_ADMIN:  ROLE_BACKEND_ACCESS
+        ROLE_DEVELOPER:      ROLE_BACKEND_ADMIN
+
+    providers:
+        backend_doctrine:
+            entity: { class: Flexy\SystemBundle\Entity\User, property: username }
+
+    firewalls:
+        dev:
+            pattern:  ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        backend_login:
+            pattern:        ^/admin/login$
+            anonymous:      true
+
+        backend:
+            switch_user:    { role: ROLE_DEVELOPER, parameter: _want_to_be_this_user }
+            pattern:        ^/admin
+            provider:       backend_doctrine
+            form_login:
+                check_path:           flexy_system_backend_login_check
+                login_path:           flexy_system_backend_login
+                default_target_path:  flexy_system_backend_dashboard
+            logout:
+                path:       flexy_system_backend_logout
+                target:     /
+
+    access_control:
+        - { path: "^/([a-z]{2}\/)?admin/login", roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: "^/([a-z]{2}\/)?admin", roles: ROLE_BACKEND_ACCESS }

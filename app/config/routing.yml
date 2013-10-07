@@ -1,0 +1,6 @@
+flexy_system_backend:
+    resource: "@FlexySystemBundle/Resources/config/routing_backend.yml"
+    prefix:   /admin
+
+flexy_system_frontend:
+    resource: "@FlexySystemBundle/Resources/config/routing_frontend.yml"
