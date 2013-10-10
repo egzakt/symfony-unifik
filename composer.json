@@ -1,6 +1,10 @@
 {
     "name": "flexy/symfony-flexy",
-    "description": "The \"Flexy Standard Edition\" distribution",
+    "description": "The Flexy CMF project",
+    "type": "project",
+    "keywords": ["cms", "cmf", "symfony", "flexy", "distribution"],
+    "homepage": "https://github.com/egzakt/symfony-flexy",
+    "license": "MIT",
     "autoload": {
         "psr-0": { "": "src/" }
     },
