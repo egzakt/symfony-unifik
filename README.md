@@ -6,13 +6,11 @@ It comes bundled with a complete CMS implementation that is highly extensible.
 
 The project is currently under heavy developement.
 
-
 ## Requirements
 
-A SQL database. At the moment, MySQL is recommended.<br>
-Flexy have the same [requirements](http://symfony.com/doc/2.2/reference/requirements.html) as Symfony2.<br/> 
-PHP 5.4 and above.<br/> 
-The [Composer dependency manager](http://getcomposer.org/download/) is required to install Flexy.
+* A SQL database. Any relational [database supported by Doctrine](http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/configuration.html#driver) will do. At the moment MySQL is recommended.<br>
+* PHP 5.4 or newer is required in addition to Symfony base [requirements](http://symfony.com/doc/2.2/reference/requirements.html).<br />
+* [Composer dependency manager](http://getcomposer.org/download/) must be installed.
 
 ## Installation
 
@@ -20,32 +18,14 @@ To install the project into the "flexy" folder, run the following terminal comma
 
 ``` bash
 $ composer create-project --stability=dev flexy/symfony-flexy flexy
+$ cd flexy
+$ app/console flexy:install
 ```
 
-### Create the database
-
-The default database name is 'flexy'.
+Now that flexy is installed you may use PHP 5.4 built-in web server to start flexy with this command:
 
 ``` bash
-$ app/console doctrine:database:create
+$ app/console server:run
 ```
 
-### Create the schema
-
-``` bash
-$ app/console doctrine:schema:create
-```
-
-### Load the fixtures
-
-``` bash
-$ app/console doctrine:fixtures:load
-```
-
-### Clear the cache
-
-This will rebuild the routing cache
-
-``` bash
-$ app/console cache:clear
-```
+Flexy is now accessible at [http://localhost:8000](http://localhost:8000)
