@@ -30,6 +30,7 @@ class AppKernel extends Kernel
             // Flexy main bundles
             new Flexy\SystemBundle\FlexySystemBundle(),
             new Flexy\DoctrineBehaviorsBundle\FlexyDoctrineBehaviorsBundle(),
+            new Flexy\DatabaseConfigBundle\FlexyDatabaseConfigBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

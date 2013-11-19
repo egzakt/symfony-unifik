@@ -37,7 +37,8 @@
         "jms/i18n-routing-bundle": "1.1.0",
 
         "flexy/system-bundle": "dev-master",
-        "flexy/doctrine-behaviors-bundle": "dev-master"
+        "flexy/doctrine-behaviors-bundle": "dev-master",
+        "flexy/database-config-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
