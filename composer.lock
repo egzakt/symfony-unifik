@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "f972d208e3c718304895af78ebfa0ed6",
+    "hash": "47be5437e6dcf0d80457f81620e175d9",
     "packages": [
         {
             "name": "Trsteel/ckeditor-bundle",
@@ -141,7 +141,8 @@
                 {
                     "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
                 },
                 {
                     "name": "Guilherme Blanco",
@@ -213,9 +214,10 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
+                    "name": "Jonathan H. Wage",
                     "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
                 },
                 {
                     "name": "Guilherme Blanco",
@@ -281,7 +283,8 @@
                 {
                     "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
                 },
                 {
                     "name": "Guilherme Blanco",
@@ -353,7 +356,8 @@
                 {
                     "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
                 },
                 {
                     "name": "Guilherme Blanco",
@@ -431,7 +435,8 @@
                 {
                     "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
                 }
             ],
             "description": "Data Fixtures for all Doctrine Object Managers",
@@ -478,7 +483,8 @@
                 {
                     "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
                 },
                 {
                     "name": "Guilherme Blanco",
@@ -663,7 +669,8 @@
                 {
                     "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
                 },
                 {
                     "name": "Guilherme Blanco",
@@ -793,7 +800,8 @@
                 {
                     "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
                 },
                 {
                     "name": "Guilherme Blanco",
@@ -816,6 +824,55 @@
                 "orm"
             ],
             "time": "2013-05-11 07:51:12"
+        },
+        {
+            "name": "flexy/database-config-bundle",
+            "version": "dev-master",
+            "target-dir": "Flexy/DatabaseConfigBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/egzakt/FlexyDatabaseConfigBundle.git",
+                "reference": "9bce51f14bb74b06f0faa260518d2e73ab82e236"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/egzakt/FlexyDatabaseConfigBundle/zipball/9bce51f14bb74b06f0faa260518d2e73ab82e236",
+                "reference": "9bce51f14bb74b06f0faa260518d2e73ab82e236",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/symfony": "2.3.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Flexy\\DatabaseConfigBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hubert Perron",
+                    "email": "hubert.perron@gmail.com"
+                },
+                {
+                    "name": "Frédéric Hamelin",
+                    "email": "fredhamelin91@gmail.com"
+                }
+            ],
+            "description": "Allows management of Symfony's container configuration from the database",
+            "homepage": "https://github.com/egzakt/FlexyDatabaseConfigBundle",
+            "keywords": [
+                "config",
+                "container",
+                "database",
+                "flexy",
+                "symfony"
+            ],
+            "time": "2013-11-19 20:19:26"
         },
         {
             "name": "flexy/doctrine-behaviors-bundle",
@@ -877,12 +934,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/egzakt/FlexySystemBundle.git",
-                "reference": "5ddaeaea1fd783723ed37c0a8f76c4b5572852d0"
+                "reference": "0582a31491aa8c10ec1d09c92c6d4fea95fd2f6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/FlexySystemBundle/zipball/5ddaeaea1fd783723ed37c0a8f76c4b5572852d0",
-                "reference": "5ddaeaea1fd783723ed37c0a8f76c4b5572852d0",
+                "url": "https://api.github.com/repos/egzakt/FlexySystemBundle/zipball/0582a31491aa8c10ec1d09c92c6d4fea95fd2f6b",
+                "reference": "0582a31491aa8c10ec1d09c92c6d4fea95fd2f6b",
                 "shasum": ""
             },
             "require": {
@@ -921,7 +978,7 @@
                 "flexy",
                 "symfony"
             ],
-            "time": "2013-11-18 01:20:26"
+            "time": "2013-11-19 15:08:08"
         },
         {
             "name": "imagine/imagine",
@@ -1403,7 +1460,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2444,7 +2501,8 @@
         "amp/subrequestextra-bundle": 20,
         "knplabs/knp-paginator-bundle": 20,
         "flexy/system-bundle": 20,
-        "flexy/doctrine-behaviors-bundle": 20
+        "flexy/doctrine-behaviors-bundle": 20,
+        "flexy/database-config-bundle": 20
     },
     "platform": {
         "php": ">=5.4.0"
