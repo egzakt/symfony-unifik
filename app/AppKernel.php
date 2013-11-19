@@ -1,7 +1,9 @@
 <?php
 
-use Symfony\Component\HttpKernel\Kernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
+use Symfony\Component\DependencyInjection\ParameterBag\ParameterBag;
+use Symfony\Component\HttpKernel\Kernel;
+use Flexy\DatabaseConfigBundle\DependencyInjection\Compiler\ContainerBuilder;
 
 class AppKernel extends Kernel
 {
@@ -46,5 +48,16 @@ class AppKernel extends Kernel
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
         $loader->load(__DIR__.'/config/config_'.$this->getEnvironment().'.yml');
+    }
+
+    /**
+     * Custom container builder that is used to enable configuration of the container from the database
+     *
+     * @link https://github.com/egzakt/FlexyDatabaseConfigBundle
+     * @return ContainerBuilder
+     */
+    protected function getContainerBuilder()
+    {
+        return new ContainerBuilder(new ParameterBag($this->getKernelParameters()));
     }
 }
