@@ -1,9 +1,9 @@
 {
-    "name": "flexy/symfony-flexy",
-    "description": "The Flexy CMF project",
+    "name": "unifik/symfony-unifik",
+    "description": "The Unifik CMF project",
     "type": "project",
-    "keywords": ["cms", "cmf", "symfony", "flexy", "distribution"],
-    "homepage": "https://github.com/egzakt/symfony-flexy",
+    "keywords": ["cms", "cmf", "symfony", "unifik", "distribution"],
+    "homepage": "https://github.com/egzakt/symfony-unifik",
     "license": "MIT",
     "autoload": {
         "psr-0": { "": "src/" }
@@ -36,9 +36,9 @@
         "knplabs/knp-paginator-bundle": "dev-master",
         "jms/i18n-routing-bundle": "1.1.0",
 
-        "flexy/system-bundle": "dev-master",
-        "flexy/doctrine-behaviors-bundle": "dev-master",
-        "flexy/database-config-bundle": "dev-master"
+        "unifik/system-bundle": "dev-master",
+        "unifik/doctrine-behaviors-bundle": "dev-master",
+        "unifik/database-config-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [

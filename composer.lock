@@ -826,17 +826,17 @@
             "time": "2013-05-11 07:51:12"
         },
         {
-            "name": "flexy/database-config-bundle",
+            "name": "unifik/database-config-bundle",
             "version": "dev-master",
-            "target-dir": "Flexy/DatabaseConfigBundle",
+            "target-dir": "Unifik/DatabaseConfigBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/egzakt/FlexyDatabaseConfigBundle.git",
+                "url": "https://github.com/egzakt/UnifikDatabaseConfigBundle.git",
                 "reference": "9bce51f14bb74b06f0faa260518d2e73ab82e236"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/FlexyDatabaseConfigBundle/zipball/9bce51f14bb74b06f0faa260518d2e73ab82e236",
+                "url": "https://api.github.com/repos/egzakt/UnifikDatabaseConfigBundle/zipball/9bce51f14bb74b06f0faa260518d2e73ab82e236",
                 "reference": "9bce51f14bb74b06f0faa260518d2e73ab82e236",
                 "shasum": ""
             },
@@ -846,7 +846,7 @@
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
-                    "Flexy\\DatabaseConfigBundle": ""
+                    "Unifik\\DatabaseConfigBundle": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -864,28 +864,28 @@
                 }
             ],
             "description": "Allows management of Symfony's container configuration from the database",
-            "homepage": "https://github.com/egzakt/FlexyDatabaseConfigBundle",
+            "homepage": "https://github.com/egzakt/UnifikDatabaseConfigBundle",
             "keywords": [
                 "config",
                 "container",
                 "database",
-                "flexy",
+                "unifik",
                 "symfony"
             ],
             "time": "2013-11-19 20:19:26"
         },
         {
-            "name": "flexy/doctrine-behaviors-bundle",
+            "name": "unifik/doctrine-behaviors-bundle",
             "version": "dev-master",
-            "target-dir": "Flexy/DoctrineBehaviorsBundle",
+            "target-dir": "Unifik/DoctrineBehaviorsBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/egzakt/FlexyDoctrineBehaviorsBundle.git",
+                "url": "https://github.com/egzakt/UnifikDoctrineBehaviorsBundle.git",
                 "reference": "45b5e91aa59b2bccbab66b1700626b2d085c4da3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/FlexyDoctrineBehaviorsBundle/zipball/45b5e91aa59b2bccbab66b1700626b2d085c4da3",
+                "url": "https://api.github.com/repos/egzakt/UnifikDoctrineBehaviorsBundle/zipball/45b5e91aa59b2bccbab66b1700626b2d085c4da3",
                 "reference": "45b5e91aa59b2bccbab66b1700626b2d085c4da3",
                 "shasum": ""
             },
@@ -896,7 +896,7 @@
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
-                    "Flexy\\DoctrineBehaviorsBundle": ""
+                    "Unifik\\DoctrineBehaviorsBundle": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -922,23 +922,23 @@
             "keywords": [
                 "behaviors",
                 "doctrine",
-                "flexy",
+                "unifik",
                 "symfony"
             ],
             "time": "2013-10-17 12:16:14"
         },
         {
-            "name": "flexy/system-bundle",
+            "name": "unifik/system-bundle",
             "version": "dev-master",
-            "target-dir": "Flexy/SystemBundle",
+            "target-dir": "Unifik/SystemBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/egzakt/FlexySystemBundle.git",
+                "url": "https://github.com/egzakt/UnifikSystemBundle.git",
                 "reference": "0582a31491aa8c10ec1d09c92c6d4fea95fd2f6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/FlexySystemBundle/zipball/0582a31491aa8c10ec1d09c92c6d4fea95fd2f6b",
+                "url": "https://api.github.com/repos/egzakt/UnifikSystemBundle/zipball/0582a31491aa8c10ec1d09c92c6d4fea95fd2f6b",
                 "reference": "0582a31491aa8c10ec1d09c92c6d4fea95fd2f6b",
                 "shasum": ""
             },
@@ -948,7 +948,7 @@
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
-                    "Flexy\\SystemBundle": ""
+                    "Unifik\\SystemBundle": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -969,13 +969,13 @@
                     "email": "emilie.marchand@gmail.com"
                 }
             ],
-            "description": "The core bundle of the symfony-flexy distribution",
-            "homepage": "https://github.com/egzakt/symfony-flexy",
+            "description": "The core bundle of the symfony-unifik distribution",
+            "homepage": "https://github.com/egzakt/symfony-unifik",
             "keywords": [
                 "cmf",
                 "cms",
                 "distribution",
-                "flexy",
+                "unifik",
                 "symfony"
             ],
             "time": "2013-11-19 15:08:08"
@@ -2500,9 +2500,9 @@
         "trsteel/ckeditor-bundle": 20,
         "amp/subrequestextra-bundle": 20,
         "knplabs/knp-paginator-bundle": 20,
-        "flexy/system-bundle": 20,
-        "flexy/doctrine-behaviors-bundle": 20,
-        "flexy/database-config-bundle": 20
+        "unifik/system-bundle": 20,
+        "unifik/doctrine-behaviors-bundle": 20,
+        "unifik/database-config-bundle": 20
     },
     "platform": {
         "php": ">=5.4.0"

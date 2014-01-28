@@ -91,18 +91,18 @@ trsteel_ckeditor:
     width: 800
     height: 500
     body_class: 'editor'
-    contents_css: /bundles/flexysystem/frontend/css/main.css
+    contents_css: /bundles/unifiksystem/frontend/css/main.css
     extra_allowed_content: 'div(*)[id]' # allow any class and id attribute on divs
     format_tags: ['p','h2','h3','h4']
     fontsize_sizes: "11px/0.917em;12px (Default)/1em;14px/1.167em;"
-    styles_set: flexy:/bundles/flexysystem/backend/js/ckeditor/styles_set.js
-    templates: flexy
-    templates_files: /bundles/flexysystem/backend/js/ckeditor/templates.js
+    styles_set: unifik:/bundles/unifiksystem/backend/js/ckeditor/styles_set.js
+    templates: unifik
+    templates_files: /bundles/unifiksystem/backend/js/ckeditor/templates.js
     templates_replace_content: false
-    custom_config: bundles/flexysystem/backend/js/ckeditor/plugins/config.js
+    custom_config: bundles/unifiksystem/backend/js/ckeditor/plugins/config.js
     external_plugins:
         wordcount:
-            path: bundles/flexysystem/backend/js/ckeditor/plugins/wordcount
+            path: bundles/unifiksystem/backend/js/ckeditor/plugins/wordcount
 
 # JMSi18nRouting configuration
 jms_i18n_routing:

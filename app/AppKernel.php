@@ -3,7 +3,7 @@
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBag;
 use Symfony\Component\HttpKernel\Kernel;
-use Flexy\DatabaseConfigBundle\DependencyInjection\Compiler\ContainerBuilder;
+use Unifik\DatabaseConfigBundle\DependencyInjection\Compiler\ContainerBuilder;
 
 class AppKernel extends Kernel
 {
@@ -21,7 +21,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
 
-            // Flexy bundles dependencies
+            // Unifik bundles dependencies
             new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Trsteel\CkeditorBundle\TrsteelCkeditorBundle(),
@@ -29,10 +29,10 @@ class AppKernel extends Kernel
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new JMS\AopBundle\JMSAopBundle(),
 
-            // Flexy main bundles
-            new Flexy\SystemBundle\FlexySystemBundle(),
-            new Flexy\DoctrineBehaviorsBundle\FlexyDoctrineBehaviorsBundle(),
-            new Flexy\DatabaseConfigBundle\FlexyDatabaseConfigBundle(),
+            // Unifik main bundles
+            new Unifik\SystemBundle\UnifikSystemBundle(),
+            new Unifik\DoctrineBehaviorsBundle\UnifikDoctrineBehaviorsBundle(),
+            new Unifik\DatabaseConfigBundle\UnifikDatabaseConfigBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
@@ -53,7 +53,7 @@ class AppKernel extends Kernel
     /**
      * Custom container builder that is used to enable configuration of the container from the database
      *
-     * @link https://github.com/egzakt/FlexyDatabaseConfigBundle
+     * @link https://github.com/egzakt/UnifikDatabaseConfigBundle
      * @return ContainerBuilder
      */
     protected function getContainerBuilder()
