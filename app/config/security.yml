@@ -5,7 +5,7 @@ security:
         strategy: unanimous
 
     encoders:
-        Flexy\SystemBundle\Entity\User:
+        Unifik\SystemBundle\Entity\User:
             algorithm:   sha512
 
     role_hierarchy:
@@ -14,7 +14,7 @@ security:
 
     providers:
         backend_doctrine:
-            entity: { class: Flexy\SystemBundle\Entity\User, property: username }
+            entity: { class: Unifik\SystemBundle\Entity\User, property: username }
 
     firewalls:
         dev:
@@ -30,11 +30,11 @@ security:
             pattern:        ^/admin
             provider:       backend_doctrine
             form_login:
-                check_path:           flexy_system_backend_login_check
-                login_path:           flexy_system_backend_login
-                default_target_path:  flexy_system_backend_dashboard
+                check_path:           unifik_system_backend_login_check
+                login_path:           unifik_system_backend_login
+                default_target_path:  unifik_system_backend_dashboard
             logout:
-                path:       flexy_system_backend_logout
+                path:       unifik_system_backend_logout
                 target:     /
 
     access_control:
