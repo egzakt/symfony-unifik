@@ -2394,12 +2394,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/egzakt/UnifikDoctrineBehaviorsBundle.git",
-                "reference": "941519d2b114b60d151609284d162f587b339b28"
+                "reference": "53d0c2ead817d745a6aae4064b0bc280cd6db8f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/UnifikDoctrineBehaviorsBundle/zipball/941519d2b114b60d151609284d162f587b339b28",
-                "reference": "941519d2b114b60d151609284d162f587b339b28",
+                "url": "https://api.github.com/repos/egzakt/UnifikDoctrineBehaviorsBundle/zipball/53d0c2ead817d745a6aae4064b0bc280cd6db8f4",
+                "reference": "53d0c2ead817d745a6aae4064b0bc280cd6db8f4",
                 "shasum": ""
             },
             "require": {
@@ -2438,7 +2438,7 @@
                 "symfony",
                 "unifik"
             ],
-            "time": "2014-01-29 14:23:12"
+            "time": "2014-01-29 16:35:47"
         },
         {
             "name": "unifik/system-bundle",
