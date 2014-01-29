@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "47be5437e6dcf0d80457f81620e175d9",
+    "hash": "27a10ad265243c024941f75d6fd4aa82",
     "packages": [
         {
             "name": "Trsteel/ckeditor-bundle",
@@ -587,12 +587,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
-                "reference": "3caec4826e58fe47520b591f965b4adcdfc8a6c8"
+                "reference": "42ac886c2c669d793dc9d6258a7296edb0d5e933"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/3caec4826e58fe47520b591f965b4adcdfc8a6c8",
-                "reference": "3caec4826e58fe47520b591f965b4adcdfc8a6c8",
+                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/42ac886c2c669d793dc9d6258a7296edb0d5e933",
+                "reference": "42ac886c2c669d793dc9d6258a7296edb0d5e933",
                 "shasum": ""
             },
             "require": {
@@ -636,7 +636,7 @@
                 "Fixture",
                 "persistence"
             ],
-            "time": "2013-09-16 10:15:05"
+            "time": "2013-12-31 08:56:10"
         },
         {
             "name": "doctrine/inflector",
@@ -826,161 +826,6 @@
             "time": "2013-05-11 07:51:12"
         },
         {
-            "name": "unifik/database-config-bundle",
-            "version": "dev-master",
-            "target-dir": "Unifik/DatabaseConfigBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/egzakt/UnifikDatabaseConfigBundle.git",
-                "reference": "9bce51f14bb74b06f0faa260518d2e73ab82e236"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/UnifikDatabaseConfigBundle/zipball/9bce51f14bb74b06f0faa260518d2e73ab82e236",
-                "reference": "9bce51f14bb74b06f0faa260518d2e73ab82e236",
-                "shasum": ""
-            },
-            "require": {
-                "symfony/symfony": "2.3.*"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Unifik\\DatabaseConfigBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hubert Perron",
-                    "email": "hubert.perron@gmail.com"
-                },
-                {
-                    "name": "Frédéric Hamelin",
-                    "email": "fredhamelin91@gmail.com"
-                }
-            ],
-            "description": "Allows management of Symfony's container configuration from the database",
-            "homepage": "https://github.com/egzakt/UnifikDatabaseConfigBundle",
-            "keywords": [
-                "config",
-                "container",
-                "database",
-                "unifik",
-                "symfony"
-            ],
-            "time": "2013-11-19 20:19:26"
-        },
-        {
-            "name": "unifik/doctrine-behaviors-bundle",
-            "version": "dev-master",
-            "target-dir": "Unifik/DoctrineBehaviorsBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/egzakt/UnifikDoctrineBehaviorsBundle.git",
-                "reference": "45b5e91aa59b2bccbab66b1700626b2d085c4da3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/UnifikDoctrineBehaviorsBundle/zipball/45b5e91aa59b2bccbab66b1700626b2d085c4da3",
-                "reference": "45b5e91aa59b2bccbab66b1700626b2d085c4da3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0",
-                "symfony/symfony": "2.3.*"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Unifik\\DoctrineBehaviorsBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hubert Perron",
-                    "email": "hubert.perron@gmail.com"
-                },
-                {
-                    "name": "Jean-François Côté",
-                    "email": "tioiscote@gmail.com"
-                },
-                {
-                    "name": "Émilie Marchand",
-                    "email": "emilie.marchand@gmail.com"
-                }
-            ],
-            "description": "Doctrine Behaviors for Symfony2, using traits.",
-            "homepage": "https://github.com/egzakt/DoctrineBehaviorsBundle.git",
-            "keywords": [
-                "behaviors",
-                "doctrine",
-                "unifik",
-                "symfony"
-            ],
-            "time": "2013-10-17 12:16:14"
-        },
-        {
-            "name": "unifik/system-bundle",
-            "version": "dev-master",
-            "target-dir": "Unifik/SystemBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/egzakt/UnifikSystemBundle.git",
-                "reference": "0582a31491aa8c10ec1d09c92c6d4fea95fd2f6b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/UnifikSystemBundle/zipball/0582a31491aa8c10ec1d09c92c6d4fea95fd2f6b",
-                "reference": "0582a31491aa8c10ec1d09c92c6d4fea95fd2f6b",
-                "shasum": ""
-            },
-            "require": {
-                "symfony/symfony": "2.3.*"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Unifik\\SystemBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hubert Perron",
-                    "email": "hubert.perron@gmail.com"
-                },
-                {
-                    "name": "Jean-François Côté",
-                    "email": "tioiscote@gmail.com"
-                },
-                {
-                    "name": "Émilie Marchand",
-                    "email": "emilie.marchand@gmail.com"
-                }
-            ],
-            "description": "The core bundle of the symfony-unifik distribution",
-            "homepage": "https://github.com/egzakt/symfony-unifik",
-            "keywords": [
-                "cmf",
-                "cms",
-                "distribution",
-                "unifik",
-                "symfony"
-            ],
-            "time": "2013-11-19 15:08:08"
-        },
-        {
             "name": "imagine/imagine",
             "version": "v0.5.0",
             "source": {
@@ -1034,17 +879,17 @@
         },
         {
             "name": "incenteev/composer-parameter-handler",
-            "version": "v2.0.0",
+            "version": "v2.1.0",
             "target-dir": "Incenteev/ParameterHandler",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Incenteev/ParameterHandler.git",
-                "reference": "2310d74a751025f02221e0faf69d31440df71b73"
+                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/2310d74a751025f02221e0faf69d31440df71b73",
-                "reference": "2310d74a751025f02221e0faf69d31440df71b73",
+                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/143272a0a09c62616a3c8011fc165a10c6b35241",
+                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241",
                 "shasum": ""
             },
             "require": {
@@ -1052,12 +897,14 @@
                 "symfony/yaml": "~2.0"
             },
             "require-dev": {
-                "composer/composer": "*"
+                "composer/composer": "1.0.*@dev",
+                "phpspec/prophecy-phpunit": "~1.0",
+                "symfony/filesystem": "~2.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.1.x-dev"
                 }
             },
             "autoload": {
@@ -1080,20 +927,20 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2013-04-06 17:15:44"
+            "time": "2013-12-07 10:10:39"
         },
         {
             "name": "jdorn/sql-formatter",
-            "version": "v1.2.9",
+            "version": "v1.2.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jdorn/sql-formatter.git",
-                "reference": "bd1f09133f6dbbe0713856910e58ea9480c2be58"
+                "reference": "64990d96e0959dff8e059dfcdc1af130728d92bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jdorn/sql-formatter/zipball/bd1f09133f6dbbe0713856910e58ea9480c2be58",
-                "reference": "bd1f09133f6dbbe0713856910e58ea9480c2be58",
+                "url": "https://api.github.com/repos/jdorn/sql-formatter/zipball/64990d96e0959dff8e059dfcdc1af130728d92bc",
+                "reference": "64990d96e0959dff8e059dfcdc1af130728d92bc",
                 "shasum": ""
             },
             "require": {
@@ -1130,28 +977,33 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2013-04-26 18:42:52"
+            "time": "2014-01-12 16:20:24"
         },
         {
             "name": "jms/aop-bundle",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "target-dir": "JMS/AopBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSAopBundle.git",
-                "reference": "8ef7db0043188f58da18f931937008f95b308921"
+                "reference": "93f41ab85ed409430bc3bab2e0b7c7677f152aa8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSAopBundle/zipball/8ef7db0043188f58da18f931937008f95b308921",
-                "reference": "8ef7db0043188f58da18f931937008f95b308921",
+                "url": "https://api.github.com/repos/schmittjoh/JMSAopBundle/zipball/93f41ab85ed409430bc3bab2e0b7c7677f152aa8",
+                "reference": "93f41ab85ed409430bc3bab2e0b7c7677f152aa8",
                 "shasum": ""
             },
             "require": {
-                "jms/cg": "1.0.0",
+                "jms/cg": "1.*",
                 "symfony/framework-bundle": "2.*"
             },
             "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "JMS\\AopBundle": ""
@@ -1174,7 +1026,7 @@
                 "annotations",
                 "aop"
             ],
-            "time": "2012-01-02 20:50:26"
+            "time": "2013-07-29 09:34:26"
         },
         {
             "name": "jms/cg",
@@ -1480,16 +1332,16 @@
         },
         {
             "name": "knplabs/knp-components",
-            "version": "1.2.3",
+            "version": "1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/knp-components.git",
-                "reference": "d18fa34bd7c22a725b71fd655232c9ef2ac0e29b"
+                "reference": "8803fdaa18bd24bd158143e3d9099f4b243a31dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/knp-components/zipball/d18fa34bd7c22a725b71fd655232c9ef2ac0e29b",
-                "reference": "d18fa34bd7c22a725b71fd655232c9ef2ac0e29b",
+                "url": "https://api.github.com/repos/KnpLabs/knp-components/zipball/8803fdaa18bd24bd158143e3d9099f4b243a31dd",
+                "reference": "8803fdaa18bd24bd158143e3d9099f4b243a31dd",
                 "shasum": ""
             },
             "require": {
@@ -1537,7 +1389,7 @@
                 "pager",
                 "paginator"
             ],
-            "time": "2013-03-14 07:31:46"
+            "time": "2014-01-09 16:23:31"
         },
         {
             "name": "knplabs/knp-paginator-bundle",
@@ -1546,12 +1398,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
-                "reference": "769b83d01b3f76b011522599bd48e5e202d94ff4"
+                "reference": "0558122152ca6a7af71730f88b728a091dea490e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/769b83d01b3f76b011522599bd48e5e202d94ff4",
-                "reference": "769b83d01b3f76b011522599bd48e5e202d94ff4",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/0558122152ca6a7af71730f88b728a091dea490e",
+                "reference": "0558122152ca6a7af71730f88b728a091dea490e",
                 "shasum": ""
             },
             "require": {
@@ -1563,7 +1415,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3.x-dev"
+                    "dev-master": "2.4.x-dev"
                 }
             },
             "autoload": {
@@ -1596,7 +1448,7 @@
                 "pagination",
                 "paginator"
             ],
-            "time": "2013-09-23 09:04:09"
+            "time": "2014-01-21 11:16:05"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -1676,12 +1528,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipImagineBundle.git",
-                "reference": "61597fc20329ccce762b07c89f6ba2d8fa0f4c09"
+                "reference": "cb56b14a5c218cd7d99c82ea016ac274ba6f8ade"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/61597fc20329ccce762b07c89f6ba2d8fa0f4c09",
-                "reference": "61597fc20329ccce762b07c89f6ba2d8fa0f4c09",
+                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/cb56b14a5c218cd7d99c82ea016ac274ba6f8ade",
+                "reference": "cb56b14a5c218cd7d99c82ea016ac274ba6f8ade",
                 "shasum": ""
             },
             "require": {
@@ -1722,7 +1574,7 @@
                 "image",
                 "imagine"
             ],
-            "time": "2013-11-11 13:41:33"
+            "time": "2014-01-29 09:55:23"
         },
         {
             "name": "monolog/monolog",
@@ -2011,16 +1863,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.0.2",
+            "version": "v5.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "f3917ecef35a4e4d98b303eb9fee463bc983f379"
+                "reference": "32edc3b0de0fdc1b10f5c4912e8677b3f411a230"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/f3917ecef35a4e4d98b303eb9fee463bc983f379",
-                "reference": "f3917ecef35a4e4d98b303eb9fee463bc983f379",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/32edc3b0de0fdc1b10f5c4912e8677b3f411a230",
+                "reference": "32edc3b0de0fdc1b10f5c4912e8677b3f411a230",
                 "shasum": ""
             },
             "require": {
@@ -2056,7 +1908,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2013-08-30 12:35:21"
+            "time": "2013-12-03 13:33:24"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -2229,17 +2081,17 @@
         },
         {
             "name": "symfony/swiftmailer-bundle",
-            "version": "v2.3.4",
+            "version": "v2.3.5",
             "target-dir": "Symfony/Bundle/SwiftmailerBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/SwiftmailerBundle.git",
-                "reference": "f5e5d12629c26a835c7aa1d74e2e041486b92d93"
+                "reference": "fcefa9dbd5a1ed20547b0f8a2afd5ad6837ea321"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/SwiftmailerBundle/zipball/f5e5d12629c26a835c7aa1d74e2e041486b92d93",
-                "reference": "f5e5d12629c26a835c7aa1d74e2e041486b92d93",
+                "url": "https://api.github.com/repos/symfony/SwiftmailerBundle/zipball/fcefa9dbd5a1ed20547b0f8a2afd5ad6837ea321",
+                "reference": "fcefa9dbd5a1ed20547b0f8a2afd5ad6837ea321",
                 "shasum": ""
             },
             "require": {
@@ -2280,20 +2132,20 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2013-08-22 13:32:58"
+            "time": "2013-11-21 12:29:01"
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.7",
+            "version": "v2.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "2829b471871c2564228fe9f0832a0f928a8ffaa1"
+                "reference": "ee1e0f2ef882ccd6a53ff91e5ffc39a22b6a6b74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/2829b471871c2564228fe9f0832a0f928a8ffaa1",
-                "reference": "2829b471871c2564228fe9f0832a0f928a8ffaa1",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/ee1e0f2ef882ccd6a53ff91e5ffc39a22b6a6b74",
+                "reference": "ee1e0f2ef882ccd6a53ff91e5ffc39a22b6a6b74",
                 "shasum": ""
             },
             "require": {
@@ -2388,7 +2240,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-11-14 07:58:51"
+            "time": "2014-01-05 01:24:54"
         },
         {
             "name": "twig/extensions",
@@ -2439,16 +2291,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.14.2",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "ca445842fcea4f844d68203ffa2d00f5e3cdea64"
+                "reference": "85e4ff98000157ff753d934b9f13659a953f5666"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/ca445842fcea4f844d68203ffa2d00f5e3cdea64",
-                "reference": "ca445842fcea4f844d68203ffa2d00f5e3cdea64",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/85e4ff98000157ff753d934b9f13659a953f5666",
+                "reference": "85e4ff98000157ff753d934b9f13659a953f5666",
                 "shasum": ""
             },
             "require": {
@@ -2457,7 +2309,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -2484,7 +2336,162 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-10-30 08:20:53"
+            "time": "2013-12-06 07:47:10"
+        },
+        {
+            "name": "unifik/database-config-bundle",
+            "version": "dev-master",
+            "target-dir": "Unifik/DatabaseConfigBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/egzakt/UnifikDatabaseConfigBundle.git",
+                "reference": "a97394cf7c136a7c657e634ae854923ac7aa21c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/egzakt/UnifikDatabaseConfigBundle/zipball/a97394cf7c136a7c657e634ae854923ac7aa21c4",
+                "reference": "a97394cf7c136a7c657e634ae854923ac7aa21c4",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/symfony": "~2.1"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Unifik\\DatabaseConfigBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hubert Perron",
+                    "email": "hubert.perron@gmail.com"
+                },
+                {
+                    "name": "Frédéric Hamelin",
+                    "email": "fredhamelin91@gmail.com"
+                }
+            ],
+            "description": "Allows management of Symfony's container configuration from the database",
+            "homepage": "https://github.com/egzakt/UnifikDatabaseConfigBundle",
+            "keywords": [
+                "config",
+                "container",
+                "database",
+                "symfony",
+                "unifik"
+            ],
+            "time": "2014-01-29 15:19:09"
+        },
+        {
+            "name": "unifik/doctrine-behaviors-bundle",
+            "version": "dev-master",
+            "target-dir": "Unifik/DoctrineBehaviorsBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/egzakt/UnifikDoctrineBehaviorsBundle.git",
+                "reference": "941519d2b114b60d151609284d162f587b339b28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/egzakt/UnifikDoctrineBehaviorsBundle/zipball/941519d2b114b60d151609284d162f587b339b28",
+                "reference": "941519d2b114b60d151609284d162f587b339b28",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "symfony/symfony": "2.3.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Unifik\\DoctrineBehaviorsBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hubert Perron",
+                    "email": "hubert.perron@gmail.com"
+                },
+                {
+                    "name": "Jean-François Côté",
+                    "email": "tioiscote@gmail.com"
+                },
+                {
+                    "name": "Émilie Marchand",
+                    "email": "emilie.marchand@gmail.com"
+                }
+            ],
+            "description": "Doctrine Behaviors for Symfony2, using traits.",
+            "homepage": "https://github.com/egzakt/DoctrineBehaviorsBundle.git",
+            "keywords": [
+                "behaviors",
+                "doctrine",
+                "symfony",
+                "unifik"
+            ],
+            "time": "2014-01-29 14:23:12"
+        },
+        {
+            "name": "unifik/system-bundle",
+            "version": "dev-master",
+            "target-dir": "Unifik/SystemBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/egzakt/UnifikSystemBundle.git",
+                "reference": "956504900a7d4e14f20cb310a19586baeffeacc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/egzakt/UnifikSystemBundle/zipball/956504900a7d4e14f20cb310a19586baeffeacc2",
+                "reference": "956504900a7d4e14f20cb310a19586baeffeacc2",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/symfony": "2.3.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Unifik\\SystemBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hubert Perron",
+                    "email": "hubert.perron@gmail.com"
+                },
+                {
+                    "name": "Jean-François Côté",
+                    "email": "tioiscote@gmail.com"
+                },
+                {
+                    "name": "Émilie Marchand",
+                    "email": "emilie.marchand@gmail.com"
+                }
+            ],
+            "description": "The core bundle of the symfony-unifik distribution",
+            "homepage": "https://github.com/egzakt/symfony-unifik",
+            "keywords": [
+                "cmf",
+                "cms",
+                "distribution",
+                "symfony",
+                "unifik"
+            ],
+            "time": "2014-01-29 15:31:02"
         }
     ],
     "packages-dev": [
