@@ -249,16 +249,16 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "v1.1",
+            "version": "v1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "560f29c39cfcfbcd210e5d549d993a39d898b04b"
+                "reference": "b99c5c46c87126201899afe88ec490a25eedd6a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/560f29c39cfcfbcd210e5d549d993a39d898b04b",
-                "reference": "560f29c39cfcfbcd210e5d549d993a39d898b04b",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/b99c5c46c87126201899afe88ec490a25eedd6a2",
+                "reference": "b99c5c46c87126201899afe88ec490a25eedd6a2",
                 "shasum": ""
             },
             "require": {
@@ -267,7 +267,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
@@ -313,7 +313,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2013-03-07 12:15:54"
+            "time": "2014-02-03 23:07:43"
         },
         {
             "name": "doctrine/common",
@@ -756,16 +756,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "2.3.4",
+            "version": "2.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "a41b02c080114c0de3da4ee9fba61f7d18fae7d0"
+                "reference": "2c31ec4809a28a549bf22d7cb7504add98156cd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/a41b02c080114c0de3da4ee9fba61f7d18fae7d0",
-                "reference": "a41b02c080114c0de3da4ee9fba61f7d18fae7d0",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/2c31ec4809a28a549bf22d7cb7504add98156cd6",
+                "reference": "2c31ec4809a28a549bf22d7cb7504add98156cd6",
                 "shasum": ""
             },
             "require": {
@@ -823,7 +823,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2013-05-11 07:51:12"
+            "time": "2014-02-08 16:28:24"
         },
         {
             "name": "imagine/imagine",
@@ -1528,12 +1528,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipImagineBundle.git",
-                "reference": "cb56b14a5c218cd7d99c82ea016ac274ba6f8ade"
+                "reference": "5598514b5b4471231a5ad7f6afeafe87d7f270a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/cb56b14a5c218cd7d99c82ea016ac274ba6f8ade",
-                "reference": "cb56b14a5c218cd7d99c82ea016ac274ba6f8ade",
+                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/5598514b5b4471231a5ad7f6afeafe87d7f270a8",
+                "reference": "5598514b5b4471231a5ad7f6afeafe87d7f270a8",
                 "shasum": ""
             },
             "require": {
@@ -1574,7 +1574,7 @@
                 "image",
                 "imagine"
             ],
-            "time": "2014-01-29 09:55:23"
+            "time": "2014-02-07 11:08:11"
         },
         {
             "name": "monolog/monolog",
@@ -2447,12 +2447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/egzakt/UnifikSystemBundle.git",
-                "reference": "956504900a7d4e14f20cb310a19586baeffeacc2"
+                "reference": "e41e16cea45a32a51a20ac1265597fd091ddf26e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/UnifikSystemBundle/zipball/956504900a7d4e14f20cb310a19586baeffeacc2",
-                "reference": "956504900a7d4e14f20cb310a19586baeffeacc2",
+                "url": "https://api.github.com/repos/egzakt/UnifikSystemBundle/zipball/e41e16cea45a32a51a20ac1265597fd091ddf26e",
+                "reference": "e41e16cea45a32a51a20ac1265597fd091ddf26e",
                 "shasum": ""
             },
             "require": {
@@ -2491,7 +2491,7 @@
                 "symfony",
                 "unifik"
             ],
-            "time": "2014-01-29 15:31:02"
+            "time": "2014-02-06 13:32:44"
         }
     ],
     "packages-dev": [
