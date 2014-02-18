@@ -13,3 +13,5 @@ parameters:
 
     locale:            en
     secret:            ThisUnifikTokenIsNotSoSecretChangeIt
+
+    project_title:     abc-123
