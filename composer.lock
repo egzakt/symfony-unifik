@@ -587,12 +587,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
-                "reference": "42ac886c2c669d793dc9d6258a7296edb0d5e933"
+                "reference": "351bcc4de9ff58bac8d72bb3ef0b7481377bb25e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/42ac886c2c669d793dc9d6258a7296edb0d5e933",
-                "reference": "42ac886c2c669d793dc9d6258a7296edb0d5e933",
+                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/351bcc4de9ff58bac8d72bb3ef0b7481377bb25e",
+                "reference": "351bcc4de9ff58bac8d72bb3ef0b7481377bb25e",
                 "shasum": ""
             },
             "require": {
@@ -619,7 +619,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -636,7 +638,7 @@
                 "Fixture",
                 "persistence"
             ],
-            "time": "2013-12-31 08:56:10"
+            "time": "2014-02-22 15:01:12"
         },
         {
             "name": "doctrine/inflector",
@@ -1398,12 +1400,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
-                "reference": "0558122152ca6a7af71730f88b728a091dea490e"
+                "reference": "10325e71cb8d644cdab546b45465587d5bf3fdfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/0558122152ca6a7af71730f88b728a091dea490e",
-                "reference": "0558122152ca6a7af71730f88b728a091dea490e",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/10325e71cb8d644cdab546b45465587d5bf3fdfa",
+                "reference": "10325e71cb8d644cdab546b45465587d5bf3fdfa",
                 "shasum": ""
             },
             "require": {
@@ -1448,7 +1450,7 @@
                 "pagination",
                 "paginator"
             ],
-            "time": "2014-01-21 11:16:05"
+            "time": "2014-02-28 12:13:24"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -1528,12 +1530,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipImagineBundle.git",
-                "reference": "5598514b5b4471231a5ad7f6afeafe87d7f270a8"
+                "reference": "ac6794887fb8e6bcdd1867260760834a91fd8140"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/5598514b5b4471231a5ad7f6afeafe87d7f270a8",
-                "reference": "5598514b5b4471231a5ad7f6afeafe87d7f270a8",
+                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/ac6794887fb8e6bcdd1867260760834a91fd8140",
+                "reference": "ac6794887fb8e6bcdd1867260760834a91fd8140",
                 "shasum": ""
             },
             "require": {
@@ -1574,7 +1576,7 @@
                 "image",
                 "imagine"
             ],
-            "time": "2014-02-07 11:08:11"
+            "time": "2014-02-20 13:36:21"
         },
         {
             "name": "monolog/monolog",
@@ -2136,16 +2138,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.9",
+            "version": "v2.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "ee1e0f2ef882ccd6a53ff91e5ffc39a22b6a6b74"
+                "reference": "aa5b228e87dde1a1a9c7c3c78ad538739da05fe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/ee1e0f2ef882ccd6a53ff91e5ffc39a22b6a6b74",
-                "reference": "ee1e0f2ef882ccd6a53ff91e5ffc39a22b6a6b74",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/aa5b228e87dde1a1a9c7c3c78ad538739da05fe1",
+                "reference": "aa5b228e87dde1a1a9c7c3c78ad538739da05fe1",
                 "shasum": ""
             },
             "require": {
@@ -2228,7 +2230,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -2240,7 +2244,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-01-05 01:24:54"
+            "time": "2014-02-27 14:55:30"
         },
         {
             "name": "twig/extensions",
@@ -2291,16 +2295,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.15.0",
+            "version": "v1.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "85e4ff98000157ff753d934b9f13659a953f5666"
+                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/85e4ff98000157ff753d934b9f13659a953f5666",
-                "reference": "85e4ff98000157ff753d934b9f13659a953f5666",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/1fb5784662f438d7d96a541e305e28b812e2eeed",
+                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed",
                 "shasum": ""
             },
             "require": {
@@ -2324,11 +2328,19 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com"
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "https://github.com/fabpot/Twig/graphs/contributors",
+                    "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
@@ -2336,7 +2348,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-12-06 07:47:10"
+            "time": "2014-02-13 10:19:29"
         },
         {
             "name": "unifik/database-config-bundle",
@@ -2394,12 +2406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/egzakt/UnifikDoctrineBehaviorsBundle.git",
-                "reference": "53d0c2ead817d745a6aae4064b0bc280cd6db8f4"
+                "reference": "061c442bf8f0ca736f4195730dd81e1305f39dcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/UnifikDoctrineBehaviorsBundle/zipball/53d0c2ead817d745a6aae4064b0bc280cd6db8f4",
-                "reference": "53d0c2ead817d745a6aae4064b0bc280cd6db8f4",
+                "url": "https://api.github.com/repos/egzakt/UnifikDoctrineBehaviorsBundle/zipball/061c442bf8f0ca736f4195730dd81e1305f39dcc",
+                "reference": "061c442bf8f0ca736f4195730dd81e1305f39dcc",
                 "shasum": ""
             },
             "require": {
@@ -2438,7 +2450,7 @@
                 "symfony",
                 "unifik"
             ],
-            "time": "2014-01-29 16:35:47"
+            "time": "2014-02-13 01:50:59"
         },
         {
             "name": "unifik/system-bundle",
@@ -2447,12 +2459,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/egzakt/UnifikSystemBundle.git",
-                "reference": "e41e16cea45a32a51a20ac1265597fd091ddf26e"
+                "reference": "67fb2711857b3ada4dc4f1cc397a8401c04b57a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/UnifikSystemBundle/zipball/e41e16cea45a32a51a20ac1265597fd091ddf26e",
-                "reference": "e41e16cea45a32a51a20ac1265597fd091ddf26e",
+                "url": "https://api.github.com/repos/egzakt/UnifikSystemBundle/zipball/67fb2711857b3ada4dc4f1cc397a8401c04b57a7",
+                "reference": "67fb2711857b3ada4dc4f1cc397a8401c04b57a7",
                 "shasum": ""
             },
             "require": {
@@ -2491,7 +2503,7 @@
                 "symfony",
                 "unifik"
             ],
-            "time": "2014-02-06 13:32:44"
+            "time": "2014-02-18 13:22:03"
         }
     ],
     "packages-dev": [
