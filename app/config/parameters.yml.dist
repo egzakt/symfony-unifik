@@ -17,3 +17,5 @@ parameters:
     project_title:       abc-123
     project_description: %project_title%
     project_keywords:    %project_title%
+
+    google_analytics_id: UA-XXXXXX-XX

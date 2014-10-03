@@ -16,7 +16,7 @@ framework:
         engines: ['twig']
         #assets_version: SomeVersionScheme
     default_locale:  %locale%
-    trusted_hosts:   ['.*\.?localhost$']
+    trusted_hosts:   ['.*\.?localhost', '.*\.local$']
     trusted_proxies: ~
     session:
         save_path:   "%kernel.root_dir%/var/sessions"
@@ -32,6 +32,7 @@ twig:
         project_title:       %project_title%
         project_description: %project_description%
         project_keywords:    %project_keywords%
+        google_analytics_id: %google_analytics_id%
 
 # Assetic Configuration
 assetic:
@@ -86,7 +87,7 @@ trsteel_ckeditor:
         basicstyles: ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat']
         paragraph: ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock']
         links: ['Link', 'Unlink', 'Anchor']
-        insert: ['Image', 'Flash', 'Table', 'HorizontalRule']
+        insert: ['Insert_media', 'Image', 'Flash', 'Table', 'HorizontalRule']
         styles: ['Styles', 'Format', 'FontSize', 'Templates']
         tools: ['Maximize', 'ShowBlocks']
     width: 800
@@ -104,6 +105,8 @@ trsteel_ckeditor:
     external_plugins:
         wordcount:
             path: bundles/unifiksystem/backend/js/ckeditor/plugins/wordcount
+        unifikmediamanager:
+            path: bundles/unifikmedia/backend/js/ckeditor/plugin/unifikmediamanager
 
 # JMSi18nRouting configuration
 jms_i18n_routing:

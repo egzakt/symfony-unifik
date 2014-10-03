@@ -2,5 +2,12 @@ unifik_system_backend:
     resource: "@UnifikSystemBundle/Resources/config/routing_backend.yml"
     prefix:   /admin
 
+unifik_media_backend:
+    resource: "@UnifikMediaBundle/Resources/config/routing_backend.yml"
+    prefix:   /admin/media
+
 unifik_system_frontend:
     resource: "@UnifikSystemBundle/Resources/config/routing_frontend.yml"
+
+_liip_imagine:
+    resource: "@LiipImagineBundle/Resources/config/routing.xml"

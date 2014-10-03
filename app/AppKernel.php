@@ -28,11 +28,14 @@ class AppKernel extends Kernel
             new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new JMS\AopBundle\JMSAopBundle(),
+            new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
+            new Liip\ImagineBundle\LiipImagineBundle(),
 
             // Unifik main bundles
             new Unifik\SystemBundle\UnifikSystemBundle(),
             new Unifik\DoctrineBehaviorsBundle\UnifikDoctrineBehaviorsBundle(),
             new Unifik\DatabaseConfigBundle\UnifikDatabaseConfigBundle(),
+            new Unifik\MediaBundle\UnifikMediaBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
