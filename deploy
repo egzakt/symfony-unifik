@@ -1,0 +1,13 @@
+#!/bin/sh
+
+sudo touch /tmp/sudotouch;
+echo 'Deploy: Updating Git working copy ...'
+git pull;
+echo 'Composer install ...'
+composer install;
+echo 'Clearing Symfony cache ...'
+rm -rf app/cache/*;
+app/console cache:clear --env=prod;
+echo 'Dumping assets ...';
+app/console fos:js-routing:dump;
+app/console assetic:dump web --env=prod;
