@@ -113,3 +113,7 @@ jms_i18n_routing:
     default_locale: "%locale%"
     locales: [fr, en]
     strategy: prefix_except_default
+
+# Datagrid
+apy_data_grid:
+    theme: 'UnifikSystemBundle:Backend:datagrid.html.twig'

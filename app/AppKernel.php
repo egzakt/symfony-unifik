@@ -30,6 +30,7 @@ class AppKernel extends Kernel
             new JMS\AopBundle\JMSAopBundle(),
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
+            new APY\DataGridBundle\APYDataGridBundle(),
 
             // Unifik main bundles
             new Unifik\SystemBundle\UnifikSystemBundle(),

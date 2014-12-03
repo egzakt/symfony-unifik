@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "symfony/symfony": "~2.3",
+        "symfony/symfony": "2.5.*",
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "~1.2",
         "twig/extensions": "~1.0",
@@ -36,6 +36,7 @@
         "knplabs/knp-paginator-bundle": "dev-master",
         "jms/i18n-routing-bundle": "1.1.0",
         "friendsofsymfony/jsrouting-bundle": "dev-master",
+        "apy/datagrid-bundle": "dev-master",
 
         "unifik/system-bundle": "dev-master",
         "unifik/doctrine-behaviors-bundle": "dev-master",
