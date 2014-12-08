@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c2d28e302adf473c959406d20d36ef90",
+    "hash": "8e44286b6ba75c5385a717d87a763380",
     "packages": [
         {
             "name": "Trsteel/ckeditor-bundle",
@@ -108,12 +108,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Abhoryo/APYDataGridBundle.git",
-                "reference": "2d7165e5ef8f612196464e23c441794a39a1d9be"
+                "reference": "285059b37c28b5db94fe1df0fe2469936ae51248"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Abhoryo/APYDataGridBundle/zipball/2d7165e5ef8f612196464e23c441794a39a1d9be",
-                "reference": "2d7165e5ef8f612196464e23c441794a39a1d9be",
+                "url": "https://api.github.com/repos/Abhoryo/APYDataGridBundle/zipball/285059b37c28b5db94fe1df0fe2469936ae51248",
+                "reference": "285059b37c28b5db94fe1df0fe2469936ae51248",
                 "shasum": ""
             },
             "require": {
@@ -161,7 +161,7 @@
                 "datagrid",
                 "symfony"
             ],
-            "time": "2014-11-11 17:35:29"
+            "time": "2014-12-04 10:23:23"
         },
         {
             "name": "doctrine/annotations",
@@ -504,30 +504,38 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.4.3",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "0368bc031976126e5d36d37d2c56155092b6575b"
+                "reference": "71140662c0a954602e81271667b6e03d9f53ea34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/0368bc031976126e5d36d37d2c56155092b6575b",
-                "reference": "0368bc031976126e5d36d37d2c56155092b6575b",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/71140662c0a954602e81271667b6e03d9f53ea34",
+                "reference": "71140662c0a954602e81271667b6e03d9f53ea34",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": "~2.4",
+                "doctrine/common": ">=2.4,<2.6-dev",
                 "php": ">=5.3.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.*",
-                "symfony/console": "~2.0"
+                "phpunit/phpunit": "4.*",
+                "symfony/console": "2.*"
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
             },
+            "bin": [
+                "bin/doctrine-dbal"
+            ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Doctrine\\DBAL\\": "lib/"
@@ -563,7 +571,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2014-10-16 11:56:49"
+            "time": "2014-12-04 21:57:15"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -2075,17 +2083,17 @@
         },
         {
             "name": "sensio/generator-bundle",
-            "version": "v2.4.2",
+            "version": "v2.4.4",
             "target-dir": "Sensio/Bundle/GeneratorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "29e6fff09198f98196e6223fc78bf0c70a89ffac"
+                "reference": "100a9d393b4a1623a997c46eaf7f47c99158ea79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/29e6fff09198f98196e6223fc78bf0c70a89ffac",
-                "reference": "29e6fff09198f98196e6223fc78bf0c70a89ffac",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/100a9d393b4a1623a997c46eaf7f47c99158ea79",
+                "reference": "100a9d393b4a1623a997c46eaf7f47c99158ea79",
                 "shasum": ""
             },
             "require": {
@@ -2119,7 +2127,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2014-11-29 10:12:05"
+            "time": "2014-12-07 18:26:57"
         },
         {
             "name": "sensiolabs/security-checker",
@@ -2168,16 +2176,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.3.0",
+            "version": "v5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "b86b927dfefdb56ab0b22d1350033d9a38e9f205"
+                "reference": "c5f963e7f9d6f6438fda4f22d5cc2db296ec621a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/b86b927dfefdb56ab0b22d1350033d9a38e9f205",
-                "reference": "b86b927dfefdb56ab0b22d1350033d9a38e9f205",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/c5f963e7f9d6f6438fda4f22d5cc2db296ec621a",
+                "reference": "c5f963e7f9d6f6438fda4f22d5cc2db296ec621a",
                 "shasum": ""
             },
             "require": {
@@ -2216,7 +2224,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2014-10-04 05:53:18"
+            "time": "2014-12-05 14:17:14"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -2729,12 +2737,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/egzakt/UnifikMediaBundle.git",
-                "reference": "233ed7ee32e2126d77edbc5ad8991eea1099ae96"
+                "reference": "87904a7779649ce44f4a297ddc828011c0804ec4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/UnifikMediaBundle/zipball/233ed7ee32e2126d77edbc5ad8991eea1099ae96",
-                "reference": "233ed7ee32e2126d77edbc5ad8991eea1099ae96",
+                "url": "https://api.github.com/repos/egzakt/UnifikMediaBundle/zipball/87904a7779649ce44f4a297ddc828011c0804ec4",
+                "reference": "87904a7779649ce44f4a297ddc828011c0804ec4",
                 "shasum": ""
             },
             "require": {
@@ -2782,7 +2790,7 @@
                 "media",
                 "unifik"
             ],
-            "time": "2014-12-01 18:43:26"
+            "time": "2014-12-03 22:01:46"
         },
         {
             "name": "unifik/system-bundle",
@@ -2791,12 +2799,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/egzakt/UnifikSystemBundle.git",
-                "reference": "7d190b89b3cf34388f7afeb2a53a131e876c7737"
+                "reference": "7f86aee0311d64091bd2a1a0ab2289fe5bd28afa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/UnifikSystemBundle/zipball/7d190b89b3cf34388f7afeb2a53a131e876c7737",
-                "reference": "7d190b89b3cf34388f7afeb2a53a131e876c7737",
+                "url": "https://api.github.com/repos/egzakt/UnifikSystemBundle/zipball/7f86aee0311d64091bd2a1a0ab2289fe5bd28afa",
+                "reference": "7f86aee0311d64091bd2a1a0ab2289fe5bd28afa",
                 "shasum": ""
             },
             "require": {
@@ -2835,7 +2843,7 @@
                 "symfony",
                 "unifik"
             ],
-            "time": "2014-11-17 22:30:43"
+            "time": "2014-12-03 21:21:19"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
