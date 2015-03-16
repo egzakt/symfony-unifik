@@ -11,3 +11,11 @@ unifik_system_frontend:
 
 _liip_imagine:
     resource: "@LiipImagineBundle/Resources/config/routing.xml"
+
+unifik_remove_trailing_slash:
+    path: /{url}
+    defaults: { _controller: "UnifikSystemBundle:Frontend/Redirecting:removeTrailingSlash" }
+    requirements:
+        url: .*/$
+    methods: [GET]
+    options:  { trailing_route: true, i18n: false }
