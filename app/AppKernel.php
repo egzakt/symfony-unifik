@@ -37,6 +37,9 @@ class AppKernel extends Kernel
             new Unifik\DoctrineBehaviorsBundle\UnifikDoctrineBehaviorsBundle(),
             new Unifik\DatabaseConfigBundle\UnifikDatabaseConfigBundle(),
             new Unifik\MediaBundle\UnifikMediaBundle(),
+
+            // Extend bundles
+            new Extend\SystemBundle\ExtendSystemBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
