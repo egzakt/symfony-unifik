@@ -39,10 +39,10 @@
         "friendsofsymfony/jsrouting-bundle": "dev-master",
         "apy/datagrid-bundle": "dev-master",
 
-        "unifik/system-bundle": "dev-master",
+        "unifik/system-bundle": "~0.1",
+        "unifik/media-bundle": "~0.1",
         "unifik/doctrine-behaviors-bundle": "dev-master",
-        "unifik/database-config-bundle": "dev-master",
-        "unifik/media-bundle": "dev-master"
+        "unifik/database-config-bundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "2.4.*"
