@@ -2808,12 +2808,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/egzakt/UnifikSystemBundle.git",
-                "reference": "bd1f43d2f78e3f5235914ab23df44d212ae25107"
+                "reference": "2e4ae62759920613ed2324c8b36e5fdd5f8390fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egzakt/UnifikSystemBundle/zipball/bd1f43d2f78e3f5235914ab23df44d212ae25107",
-                "reference": "bd1f43d2f78e3f5235914ab23df44d212ae25107",
+                "url": "https://api.github.com/repos/egzakt/UnifikSystemBundle/zipball/2e4ae62759920613ed2324c8b36e5fdd5f8390fc",
+                "reference": "2e4ae62759920613ed2324c8b36e5fdd5f8390fc",
                 "shasum": ""
             },
             "require": {
@@ -2852,7 +2852,7 @@
                 "symfony",
                 "unifik"
             ],
-            "time": "2015-11-17 02:06:45"
+            "time": "2015-11-17 16:53:21"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
