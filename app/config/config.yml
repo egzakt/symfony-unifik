@@ -84,7 +84,7 @@ trsteel_ckeditor:
         basicstyles: ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat']
         paragraph: ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock']
         links: ['Link', 'Unlink', 'Anchor']
-        insert: ['Insert_media', 'Image', 'Flash', 'Table', 'HorizontalRule']
+        insert: ['Insert_media', 'Image', 'HorizontalRule']
         styles: ['Styles', 'Format', 'FontSize', 'Templates']
         tools: ['Maximize', 'ShowBlocks']
     width: 800
