@@ -1,12 +1,20 @@
 #!/bin/sh
 
+sudo touch /tmp/sudotouch
 echo 'Deploy: Updating Git working copy ...'
-git pull;
+git pull origin master;
 echo 'Composer install ...'
 composer install;
-echo 'Clearing Symfony cache ...'
+echo 'Composer autoloader optimization ...'
+composer dump-autoload --optimize
+echo 'Clearing and warming Symfony cache ...'
+sudo chmod -R ug+rw app/cache
 rm -rf app/cache/*;
-app/console cache:clear --env=prod;
+app/console cache:warmup --env=prod;
 echo 'Dumping assets ...';
 app/console fos:js-routing:dump --env=prod;
 app/console assetic:dump web --env=prod;
+#echo 'Clearing APC cache ...' # Decommenter en prod
+#curl "http://user:passwordfromhtpasswd@www.example.com/apc/clear-apc.php" # Decommenter en prod, ajouter pwd
+echo 'Restart Apache (invalidate APC and OPCache) ...';
+sudo apachectl graceful
